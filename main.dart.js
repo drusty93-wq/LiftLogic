@@ -80783,14 +80783,14 @@ A.yk.prototype={
 ah(){return new A.CM()}}
 A.CM.prototype={
 a9V(a){this.ae(new A.ahP(this,a))},
-K(a){var s=A.asy(B.Tk),r=this.d,q=B.G4[r<3?r:0]
+K(a){var s=A.asy(B.Ts),r=this.d,q=B.G4[r<3?r:0]
 return A.L0(s,q,new A.vR(B.H5,this.ga9U(),r,B.k,B.l,B.M,null),null)}}
 A.ahP.prototype={
 $0(){this.a.d=this.b},
 $S:0}
 A.MY.prototype={
 K(a){var s=null
-return A.L0(s,new A.b1(B.cg,A.dW(A.c([B.cl,B.Td,B.yI,A.qV(!1,B.Tr,s,s,s,s,s,s,new A.adn(a),s,s),B.cl,A.r_(A.jG(new A.b1(B.el,A.c_('Tap "Create Workout" to start a new workout by selecting a muscle group.',s,s,s,s,A.T(a).ok.y,B.f0,s),s),s,s),1)],t.p),B.aT,B.Q,B.ay),s),s,s)}}
+return A.L0(s,new A.b1(B.cg,A.dW(A.c([B.cl,B.Td,B.yI,A.qV(!1,B.Tq,s,s,s,s,s,s,new A.adn(a),s,s),B.cl,A.r_(A.jG(new A.b1(B.el,A.c_('Tap "Create Workout" to start a new workout by selecting a muscle group.',s,s,s,s,A.T(a).ok.y,B.f0,s),s),s,s),1)],t.p),B.aT,B.Q,B.ay),s),s,s)}}
 A.adn.prototype={
 $0(){A.vf(new A.adm(),this.a,t.z)},
 $S:0}
@@ -80984,7 +80984,7 @@ p===$&&A.a()
 p=A.asy(A.r7(q,A.kp(A.c([A.r_(A.c_(p.a.a,q,q,q,q,q,q,q),1),B.EL],t.p),B.a4,B.Q,B.ay,0),B.ap,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,r.gabx(),q,q,q,q,q,q))
 s=r.d
 s===$&&A.a()
-return A.L0(p,A.yc(new A.an2(r),s.length+3,B.cg),new A.b1(B.cg,A.qV(!1,B.Tp,q,q,q,q,q,q,r.gac1(),q,q),q),q)},
+return A.L0(p,A.yc(new A.an2(r),s.length+3,B.cg),new A.b1(B.cg,A.qV(!1,B.To,q,q,q,q,q,q,r.gac1(),q,q),q),q)},
 a16(){var s=this.c
 s.toString
 A.vf(new A.amY(this),s,t.z)}}
@@ -80993,7 +80993,7 @@ $1(a){return A.atA(a,a.c)},
 $S:500}
 A.an1.prototype={
 $1(a){var s=null,r=this.b,q=A.tE(r,B.ET,s,1,s)
-return A.Gk(A.c([A.jc(B.dI,new A.an_(a),s),A.qV(!1,B.kZ,s,s,s,s,s,s,new A.an0(this.a,r,a),s,s)],t.p),q,B.Tn)},
+return A.Gk(A.c([A.jc(B.dI,new A.an_(a),s),A.qV(!1,B.kZ,s,s,s,s,s,s,new A.an0(this.a,r,a),s,s)],t.p),q,B.Tm)},
 $S:57}
 A.an_.prototype={
 $0(){A.dK(this.a,!1).he(null)
@@ -81018,7 +81018,7 @@ if(b<s)return new A.x9(p[b],r)
 else if(b===s)return new A.b1(B.mV,A.atw(B.jQ,B.Tt,q.ga15()),r)
 else if(b===s+1){q=q.f
 q===$&&A.a()
-return new A.b1(B.mV,A.ql(new A.b1(B.cg,A.dW(A.c([B.Tl,B.yI,A.tE(q,B.EQ,r,3,r)],t.p),B.aT,B.Q,B.ay),r),r),r)}return B.at},
+return new A.b1(B.mV,A.ql(new A.b1(B.cg,A.dW(A.c([B.Tk,B.yI,A.tE(q,B.EQ,r,3,r)],t.p),B.aT,B.Q,B.ay),r),r),r)}return B.at},
 $S:502}
 A.amY.prototype={
 $1(a){return new A.lR(null,new A.amX(this.a,a),null)},
@@ -85672,10 +85672,10 @@ B.Tv=new A.bZ("Export / Import will be added here.",null,null,null,null,null,nul
 B.BJ=new A.eJ(B.K,null,null,B.Tv,null)
 B.Tb=new A.bZ("No sessions recorded yet.",null,null,null,null,null,null,null,null,null)
 B.BK=new A.eJ(B.K,null,null,B.Tb,null)
-B.To=new A.bZ("Gym Workout Tracker\nVersion 0.1.0",null,null,null,null,null,null,null,null,null)
-B.BM=new A.eJ(B.K,null,null,B.To,null)
-B.Ts=new A.bZ("No templates saved. Add one with +",null,null,null,null,null,null,null,null,null)
-B.BN=new A.eJ(B.K,null,null,B.Ts,null)
+B.Tn=new A.bZ("Gym Workout Tracker\nVersion 0.1.0",null,null,null,null,null,null,null,null,null)
+B.BM=new A.eJ(B.K,null,null,B.Tn,null)
+B.Tr=new A.bZ("No templates saved. Add one with +",null,null,null,null,null,null,null,null,null)
+B.BN=new A.eJ(B.K,null,null,B.Tr,null)
 B.BO=new A.w2(null,null,null,null,null,null,null,null,null)
 B.d7=new A.qp(0,"none")
 B.d8=new A.qp(1,"isTrue")
@@ -87676,13 +87676,13 @@ B.NO=new A.j5(3,"hide")
 B.WI=new A.j5(4,"remove")
 B.NP=new A.j5(5,"timeout")
 B.NQ=new A.tm(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Tm=new A.bZ("Workout saved successfully!",null,null,null,null,null,null,null,null,null)
+B.Tl=new A.bZ("Workout saved successfully!",null,null,null,null,null,null,null,null,null)
 B.fI=new A.aO(4e6)
-B.NR=new A.j4(B.Tm,null,null,null,null,null,null,null,null,null,null,null,null,B.fI,!1,null,null,null,B.O,null)
+B.NR=new A.j4(B.Tl,null,null,null,null,null,null,null,null,null,null,null,null,B.fI,!1,null,null,null,B.O,null)
 B.Tu=new A.bZ("Please record at least one set",null,null,null,null,null,null,null,null,null)
 B.NS=new A.j4(B.Tu,null,null,null,null,null,null,null,null,null,null,null,null,B.fI,!1,null,null,null,B.O,null)
-B.Tq=new A.bZ("Exercise added",null,null,null,null,null,null,null,null,null)
-B.NT=new A.j4(B.Tq,null,null,null,null,null,null,null,null,null,null,null,null,B.fI,!1,null,null,null,B.O,null)
+B.Tp=new A.bZ("Exercise added",null,null,null,null,null,null,null,null,null)
+B.NT=new A.j4(B.Tp,null,null,null,null,null,null,null,null,null,null,null,null,B.fI,!1,null,null,null,B.O,null)
 B.Te=new A.bZ("Data reset",null,null,null,null,null,null,null,null,null)
 B.NU=new A.j4(B.Te,null,null,null,null,null,null,null,null,null,null,null,null,B.fI,!1,null,null,null,B.O,null)
 B.yL=new A.Aq(0,"permissive")
@@ -88068,12 +88068,12 @@ B.Th=new A.bZ("Close",null,null,null,null,null,null,null,null,null)
 B.Ti=new A.bZ("Delete Workout?",null,null,null,null,null,null,null,null,null)
 B.Tj=new A.bZ("Reset all data",null,null,null,null,null,null,null,null,null)
 B.ze=new A.bZ("Set user name",null,null,null,null,null,null,null,null,null)
-B.Tk=new A.bZ("Gym Workout Tracker",null,null,null,null,null,null,null,null,null)
 B.Rc=new A.k(!0,null,null,null,null,null,14,B.by,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Tl=new A.bZ("Workout Notes",null,B.Rc,null,null,null,null,null,null,null)
-B.Tn=new A.bZ("Rename Workout",null,null,null,null,null,null,null,null,null)
-B.Tp=new A.bZ("Complete Workout",null,null,null,null,null,null,null,null,null)
-B.Tr=new A.bZ("Create Workout",null,null,null,null,null,null,null,null,null)
+B.Tk=new A.bZ("Workout Notes",null,B.Rc,null,null,null,null,null,null,null)
+B.Tm=new A.bZ("Rename Workout",null,null,null,null,null,null,null,null,null)
+B.To=new A.bZ("Complete Workout",null,null,null,null,null,null,null,null,null)
+B.Tq=new A.bZ("Create Workout",null,null,null,null,null,null,null,null,null)
+B.Ts=new A.bZ("Lift Logic",null,null,null,null,null,null,null,null,null)
 B.Tt=new A.bZ("Add Another Exercise",null,null,null,null,null,null,null,null,null)
 B.JN=new A.h(0.056,0.024)
 B.K1=new A.h(0.108,0.3085)
